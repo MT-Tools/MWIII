@@ -1,0 +1,148 @@
+@font-face {
+    font-family: "Hitmarker";
+    src: url(/Fonts/HitmarkerNormal-Regular.ttf)
+    format("truetype")
+    ;
+}
+
+
+*{
+    font-family: "Hitmarker";
+    background-color: #111111;
+    scroll-behavior: smooth;
+}
+.logo{
+    
+    display: inline-block;
+    width: 40px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.name-logo{
+    display: inline-block;
+    vertical-align:top;
+    margin-top: 10px;
+    margin-left: 8px;
+    color: #EDF2F4;
+}
+
+.title-logo{
+    width: 350px;
+    padding: 5px;
+    
+}
+
+.buttons-menu{
+    padding: 1cap;
+}
+
+button{
+    
+    font-size: 200;
+    display: inline-block;
+    background-color: #D90429;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border-width: 0;
+    color: #EDF2F4;
+    cursor: pointer;
+    filter: drop-shadow(0px 0px 8px #D90429);
+    transition: 0.5s;
+}
+
+button:hover{
+    background-color: #111111;
+    filter: drop-shadow(0px 0px 8px #D90429);
+    color: #D90429;
+    
+}
+
+.button-info{
+    padding: 10px;
+    font-size: small;
+    color: #EDF2F4;
+    word-spacing: 2px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cod-preview{
+    display: block;
+    width: 300px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cod-img{
+    display: block;
+    width: 300px;
+}
+
+
+.maps-hardpoint{
+    width: 300px;
+    border-radius: 20px;
+    transition: .5s;
+    z-index: 1;
+}
+
+
+
+
+.maps{
+    display: inline-block;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 300px;
+    background-color: rgb(0, 0, 0);
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: #EDF2F4;
+    filter: drop-shadow(0px 0px 10px #a200ff);
+    transition: .5s;
+}
+
+
+.maps:hover{
+    filter: drop-shadow(0px 0px 12px #D90429 );
+    
+}
+
+
+
+.main{
+    background-color: #D90429;
+    color: #EDF2F4;
+    text-decoration: none;
+    transition: .4s;
+}
+
+.main:hover{
+    background-color: #111111;
+}
+
+.footer{
+
+    color: #D90429;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+.footer-link{
+    margin-left: 15px;
+    color: #EDF2F4;
+    text-decoration: none;
+    background-color: #111111;
+    vertical-align: super;
+}
+
+.ri-telegram-line{
+    font-size: 30px;
+    
+}
